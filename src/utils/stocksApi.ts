@@ -66,13 +66,13 @@ export const mockStocks: Stock[] = [
     lastUpdated: new Date()
   },
   {
-    symbol: 'MSFT',
-    name: 'Microsoft Corp.',
-    price: 402.65,
-    change: 3.71,
-    changePercent: 0.93,
-    volume: 22154780,
-    marketCap: 2990000000000,
+    symbol: 'VOO',
+    name: 'Vanguard S&P 500 ETF',
+    price: 412.35,
+    change: 2.14,
+    changePercent: 0.52,
+    volume: 4823650,
+    marketCap: 485000000000,
     lastUpdated: new Date()
   },
   {

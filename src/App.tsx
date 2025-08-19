@@ -12,7 +12,7 @@ import Currencies from "./pages/Currencies";
 import Global from "./pages/Global";
 import Portfolio from "./pages/Portfolio";
 import Performance from "./pages/Performance";
-import Analysis from "./pages/Analysis";
+
 import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
@@ -31,7 +31,7 @@ const App = () => (
           <Route path="/global" element={<Global />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/performance" element={<Performance />} />
-          <Route path="/analysis" element={<Analysis />} />
+          
           <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

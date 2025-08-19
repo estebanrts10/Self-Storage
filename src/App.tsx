@@ -14,6 +14,7 @@ import Portfolio from "./pages/Portfolio";
 import Performance from "./pages/Performance";
 
 import Settings from "./pages/Settings";
+import Locale from "./pages/Locale";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/performance" element={<Performance />} />
           
           <Route path="/settings" element={<Settings />} />
+          <Route path="/locale/:locationName" element={<Locale />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
